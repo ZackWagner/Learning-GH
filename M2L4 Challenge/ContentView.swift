@@ -15,6 +15,7 @@ struct ContentView: View {
     var body: some View {
         
         VStack {
+            Text("penis")
             
             // For each number, create a text element
             List(numbers, id: \.self) { num in
